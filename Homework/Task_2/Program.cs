@@ -29,7 +29,7 @@ int[] GetArray(int size)
     {
         array[i] = number.Next(-1000, 1001);
     }
-    Console.WriteLine("Source array: [{0}]", string.Join(", ", array));
+    Console.WriteLine("Original array: [{0}]", string.Join(", ", array));
     return array;
 }
 
@@ -40,7 +40,7 @@ int UnevenSum(int[] array)
     {
         result = result + array[i];
     }
-    Console.WriteLine("Sum uneven elements of array: {0}", result);
+    Console.WriteLine("Sum of uneven array elements: {0}", result);
     return result;
 }
 
